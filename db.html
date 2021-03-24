@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>UTS</title>
+  <link rel="stylesheet" href="style.css"/>
+
+ </head>
+<body background image="2.jpg">
+ <div id='faruq-style'> 
+  <div class='title'> APLIKASI PEMANTAUAN COVID-19 </div> 
+  <p>INPUT DATA </p> 
+  <div class='faruq-form'>
+  <form action="proses.php" method="GET">
+    <select name="wilayah">
+      <option> Wilayah</option>
+      <option value="DKI JAKARTA">DKI JAKARTA</option>
+      <option value="JAWA BARAT">JAWA BARAT</option>
+      <option value="BANTEN">BANTEN</option>
+      <option value="JAWA TENGAH">JAWA TENGAH</option>
+    </select>
+   <input type="text" name="jmlpositif" placeholder="Jumlah Positif"></input><br/>
+   <input type="text" name="jmldirawat" placeholder="Jumlah Dirawat"></input><br/>
+   <input type="text" name="jmlsembuh" placeholder="Jumlah Sembuh"></input><br/>
+   <input type="text" name="jmlmeninggal" placeholder="jumlah Meninggal"></input><br/>
+   <input type="text" name="nmoperator" placeholder="Nama Operator"></input><br/>
+   <input type="text" name="nim_mahasiswa" placeholder="NIM"></input><br/>
+   <input class='submitbutton' type='submit' value='Simpan' name="tambah" />  
+
+  </form> 
+ </div> 
+ </div>
+</body>
+</html>
